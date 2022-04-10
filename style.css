@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+    }
+.btn{
+        box-shadow: none !important
+    }
+/* -----------------------------------    navbar1   -----------------------------------*/
+#dropdown-menuK{
+    min-width: 0px;
+}
+#dropdown-itemK{
+    width: 60px;
+}
+#phoneIBtn{
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+#phoneI{
+    position: relative;
+    font-size: 20px;    
+}
+.En .btn{
+    font-size: 0.83rem;
+    font-weight: 500;
+}
+
+.En{
+    margin-right: 5vw;
+}
+.menu-btn i{
+            position: absolute;
+            right: 10px;
+            top: 35px;
+            float: right;
+            font-size: 1.5em;
+}
+.navbar1{
+    transition: 0.3s ease;
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    padding: 18px 5;
+    background-color:#1b1b1b;
+}
+.navbar1 ul a{
+    margin-left: 30px;
+color: white;
+text-decoration: none;
+font-size: 17px;
+font-weight: 400;
+top: 10px;
+position: relative;
+}
+.navbar1 ul a:hover{
+
+    color: #ec45ff;
+
+}
+.logo a{
+    font-size: 35px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+
+}
+.navbar1 .menu-list.active{
+    right: 0%;
+}
+
+.navbar1 .content{
+    padding: 0px 5px ;
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon.hide{
+    display: none;
+}
+.menu-list li{
+    list-style: none;
+}
+.navbar1 .menu-list{
+    display: inline-flex;
+
+}
+i{
+    color: white;
+}
+.icon{
+    cursor: pointer;
+    display: none;
+}
+.navbar1.sticky1{
+  background: #1b1b1b;
+  padding: 20px 0;
+  box-shadow: 0px 0px 10px 5px  black;
+}
+.cancel-btn.show{
+    display: block;
+
+}
+#phone-number-navbar{
+
+    font-size: 16px;
+    font-weight: 300;
+
+}
+
+@media  (max-width:954px){
+    .En{
+        margin-right: 15vw;
+    }
+    .navbar1 ul a{
+    margin-left: 0px;
+
+}
+.logo a{
+    margin-left: 30px;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+
+}
+
+        
+
+    .navbar1 .menu-list{
+    right:-100%;
+    position: fixed;
+    top:0;
+    width: 100%;
+    max-width: 400px;
+    height: 100vh;
+    background-color: rgb(27, 27, 27);
+    display: block;
+    text-align:center ;
+        z-index: 10;
+    transition: all 0.5s ease;
+
+
+} 
+
+.icon{
+    display: block;
+
+
+}
+.cancel-btn{
+    display: none;
+    font-size: 20px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+.navbar1 .menu-list li{
+    margin-top: 45px;
+    font-size: 23px;
+}
+#phoneI {
+    font-size: 1.2rem;
+
+  }
+  #phoneIBtn{
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
+
+#first-btn-mobile{
+    margin-top: 130px;
+}
+
+}
+@media  (max-width:500px){
+    #phone-number-navbar{
+
+       display: none;
+    
+    }
+}
+/* -----------------------------------    navbar1   -----------------------------------*/
+
+/*  Test   */
+h2{
+    text-align: center;
+}
+.test{
+    background-color: bisque;
+    height: 850px;
+    width: 100%;
+
+}
+body{
+    background: #ec45ff;
+}
