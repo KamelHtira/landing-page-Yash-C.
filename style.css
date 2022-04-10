@@ -12,6 +12,9 @@
 .btn{
         box-shadow: none !important
     }
+    html {
+        scroll-behavior: smooth;
+      }
 /* -----------------------------------    navbar1   -----------------------------------*/
 #dropdown-menuK{
     min-width: 0px;
@@ -101,7 +104,7 @@ i{
 .navbar1.sticky1{
   background: #1b1b1b;
   padding: 20px 0;
-  box-shadow: 0px 0px 10px 5px  black;
+
 }
 .cancel-btn.show{
     display: block;
@@ -204,3 +207,34 @@ h2{
 body{
     background: #ec45ff;
 }
+
+/* -----------------------------------    form   -----------------------------------*/
+#formTitle{
+    font-size: 1.2rem;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+.formClass{
+    color: white;
+    border-radius: 7px;
+    background-color: rgba(20, 20, 20, 0.7);
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    width: 90%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+}
+@media  (max-width:767px){
+    .formClass{
+        
+        margin: auto;
+        position: static;
+        width: 90%;
+        transform: translate(0%, 0%);
+        margin-top: 50px;
+    }
+}
+
+/* -----------------------------------    form   -----------------------------------*/
