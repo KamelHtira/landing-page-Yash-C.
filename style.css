@@ -36,7 +36,7 @@
 .menu-btn i{
             position: absolute;
             right: 10px;
-            top: 35px;
+            top: 32px;
             float: right;
             font-size: 1.5em;
 }
@@ -116,7 +116,7 @@ i{
 
 @media  (max-width:954px){
     .En{
-        margin-right: 15vw;
+        margin-right: 8vw;
     }
     .navbar1 ul a{
     margin-left: 0px;
@@ -180,6 +180,9 @@ i{
 
 }
 @media  (max-width:500px){
+    .En{
+        margin-right: 12vw;
+    }
     #phone-number-navbar{
 
        display: none;
