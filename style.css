@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Tangerine:wght@400;700&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -39,7 +40,7 @@
 .menu-btn i{
             position: absolute;
             right: 10px;
-            top: 32px;
+            top: 29px;
             float: right;
             font-size: 1.5em;
 }
@@ -222,7 +223,7 @@ body{
     position: absolute;
     top: 180px;
     left: 50%;
-    width: 90%;
+    width: 85%;
     transform: translate(-50%, -50%);
     padding: 30px;
 }
@@ -238,3 +239,124 @@ body{
 }
 
 /* -----------------------------------    form   -----------------------------------*/
+
+/* -----------------------------------    about us   -----------------------------------*/
+
+#heading-about-us{
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight:400 ;
+}
+.container{
+    padding: 100px 0px;
+}
+
+
+/* -----------------------------------    about us   -----------------------------------*/
+
+
+/* -----------------------------------    Differentiation  -----------------------------------*/
+
+.Differentiation{
+    padding:  200px 0px;
+}
+.Differentiation table {
+    background-color: white;
+    color: #1b1b1b;
+    margin: auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 65%;
+    border: 1px solid #ddd;
+  }
+  
+
+  .Differentiation th:first-child, td:first-child {
+    text-align: left;
+  }
+   .Differentiation th, td {
+    text-align: center;
+    padding: 20px;
+  }
+  .Differentiation tr:nth-child(even) {
+    background-color: rgb(44, 44, 44);
+    color: white;
+  }
+
+  
+  .Differentiation .fa-check {
+    color: rgb(62, 158, 62);
+    font-size: 1.5rem;
+  }
+  
+  .Differentiation .fa-times{
+    color: rgb(221, 47, 47);
+    font-size: 1.6rem;
+  }
+
+  @media  (max-width:1500px){
+    .Differentiation table{
+        
+
+        width: 80%;
+
+    }
+}
+
+  @media  (max-width:590px){
+    .Differentiation table{
+        
+
+        width: 100%;
+
+    }
+}
+
+
+  /* -----------------------------------    Differentiation   -----------------------------------*/
+
+  /* -----------------------------------    Numbers   -----------------------------------*/
+    .numberDiv {
+        font-family: 'Nanum Gothic', sans-serif;
+        font-family: 'Tangerine', cursive;
+        font-size: 10em;
+
+        text-align: center;
+        width: 20vw;
+        height: 20vh;
+
+    }
+    .numberDiv ,#first-number,#second-number,#third-number,#forth-number,#fifth-number{
+        font-family: 'Nanum Gothic', sans-serif;
+        font-family: 'Tangerine', cursive;
+        font-weight: 700;
+    }
+    #number-container{
+        display: flex; justify-content: space-between;margin: 0px auto 350px auto; width: 80%;
+
+    }
+
+    @media  (max-width:1400px){
+       .numberDiv{
+           width: 30vh;
+       }
+    }
+    @media  (max-width:1000px){
+        .numberDiv{
+
+            width: 20vw;
+            font-size: 7em;
+        }
+     }
+     @media  (max-width:650px){
+        #number-container{
+            display: block;
+    
+        }
+        .numberDiv{
+            text-align: center;
+            width: 100%;
+        }
+     }
+  /* -----------------------------------    Numbers   -----------------------------------*/
