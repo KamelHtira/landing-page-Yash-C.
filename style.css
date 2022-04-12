@@ -282,6 +282,7 @@ body{
     color: #010001;
     border-collapse:collapse;
     border: 0px;
+    box-shadow: 0px 23px 35px 1px #595959;
     
 
 
@@ -348,6 +349,7 @@ body{
 @media  (max-width:780px){
 .Differentiation table {
     font-size: 15px;
+    border-radius: 0px;
 }
 #first-table{
     width: 58%;
@@ -367,12 +369,12 @@ body{
     }
     .second-third-table{
         width: 82px;;
-        margin-left: 0px;
+        margin-left: 2px;
         
     }
     .Differentiation table{
         
-
+        box-shadow: 0px 0px 0px 0px;
         font-size: 10px;
         
 
