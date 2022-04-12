@@ -19,7 +19,7 @@
           this.scrollY >20 ? navbar.classList.add("sticky1") : navbar.classList.remove("sticky1");
       }
 
-      
+    
       function animateValue(obj, start, end, duration) {
         let startTimestamp = null;
         const step = (timestamp) => {
@@ -45,9 +45,12 @@
       animateValue(obj5, 0, 7, 2500);
       }
       let i=0;
+
       window.onscroll = ()=>{
         if(this.scrollY>1850 && i==0){
-            runNumbers();i++
+            console.log("here");
+            runNumbers();i++;
+            
         }
     }
 

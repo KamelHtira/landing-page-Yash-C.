@@ -26,6 +26,12 @@
 #phoneIBtn{
     padding-bottom: 8px;
     padding-top: 8px;
+    border: 1px #06d087;
+    background-color: #06d087;
+}
+
+#phoneIBtn:hover{
+    background-color: #059762;
 }
 #phoneI{
     position: relative;
@@ -50,7 +56,7 @@
     z-index: 5;
     width: 100%;
     padding: 18px 5;
-    background-color:#1b1b1b;
+    background-color:#010001;
 }
 .navbar1 ul a{
     margin-left: 30px;
@@ -63,7 +69,7 @@ position: relative;
 }
 .navbar1 ul a:hover{
 
-    color: #ec45ff;
+    color: #06d087;
 
 }
 .logo a{
@@ -144,7 +150,7 @@ i{
     width: 100%;
     max-width: 400px;
     height: 100vh;
-    background-color: rgb(27, 27, 27);
+    background-color: #010001;
     display: block;
     text-align:center ;
         z-index: 10;
@@ -206,7 +212,7 @@ h2{
 
 }
 body{
-    background: #ec45ff;
+    background: #06d087;
 }
 
 /* -----------------------------------    form   -----------------------------------*/
@@ -226,6 +232,12 @@ body{
     width: 85%;
     transform: translate(-50%, -50%);
     padding: 30px;
+}
+#form-btn{
+    display: block;height: 38px;background-color: #06d087;border: 1px #06d087;
+}
+#form-btn:hover{
+    background-color: #059762;
 }
 @media  (max-width:767px){
     .formClass{
@@ -259,59 +271,122 @@ body{
 /* -----------------------------------    Differentiation  -----------------------------------*/
 
 .Differentiation{
-    padding:  200px 0px;
+    padding: 0px 0px 200px 0px;
+    display: flex;    justify-content: center;
 }
 .Differentiation table {
+
+    border-radius: 10px;
+    font-size: 20px;
     background-color: white;
-    color: #1b1b1b;
-    margin: auto;
-    border-collapse: collapse;
-    border-spacing: 0;
-    width: 65%;
-    border: 1px solid #ddd;
+    color: #010001;
+    border-collapse:collapse;
+    border: 0px;
+    
+
+
+
   }
   
 
-  .Differentiation th:first-child, td:first-child {
-    text-align: left;
-  }
+
    .Differentiation th, td {
-    text-align: center;
+
     padding: 20px;
   }
-  .Differentiation tr:nth-child(even) {
-    background-color: rgb(44, 44, 44);
+  .Differentiation #first-table tr:nth-child(even) {
+    background-color: #010001;
     color: white;
   }
+  .Differentiation  tr:nth-child(even) {
+    background-color: rgb(240, 240, 240);
 
-  
-  .Differentiation .fa-check {
-    color: rgb(62, 158, 62);
-    font-size: 1.5rem;
-  }
-  
-  .Differentiation .fa-times{
-    color: rgb(221, 47, 47);
-    font-size: 1.6rem;
   }
 
+  .Differentiation .fa-thumbs-up{
+      color: #05b876;
+      font-size: 2rem;
+  }
+  .Differentiation .fa-thumbs-down{
+    color: #010001;
+    font-size: 2rem;
+}
+
+
+.second-third-table{
+    width: 10%;
+    text-align: center;
+    margin-left: 10px;
+}
+#first-table td{    text-align: left;
+    padding-left: 100px;
+}
+#first-table{
+    width: 50%;
+ text-align: center;
+}
   @media  (max-width:1500px){
-    .Differentiation table{
-        
+    #first-table td{ 
 
-        width: 80%;
+        padding-left: 30px;
+    }
+}
+@media  (max-width:1000px){
+    #first-table td{ 
+
+        padding-left: 10px;
+    }
+    #first-table{
+        width: 69%;
 
     }
+    .second-third-table{
+        width: 14%;
+
+    }
+}
+@media  (max-width:780px){
+.Differentiation table {
+    font-size: 15px;
+}
+#first-table{
+    width: 58%;
+
+}
+.second-third-table{
+    width: 18%;
+    margin-left: 4px;
+
+}
 }
 
   @media  (max-width:590px){
+    #first-table{
+        width: 60%;
+    
+    }
+    .second-third-table{
+        width: 82px;;
+        margin-left: 0px;
+        
+    }
     .Differentiation table{
         
 
-        width: 100%;
+        font-size: 10px;
+        
 
     }
+    .Differentiation table th{
+        
+
+        font-size: 12px;
+        
+
+    }
+
 }
+
 
 
   /* -----------------------------------    Differentiation   -----------------------------------*/
@@ -357,6 +432,7 @@ body{
         .numberDiv{
             text-align: center;
             width: 100%;
+            margin-top: 30px;
         }
      }
   /* -----------------------------------    Numbers   -----------------------------------*/
