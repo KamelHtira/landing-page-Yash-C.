@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.3/assets/owl.carousel.min.css">
+
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -45,6 +47,7 @@
                 </button>
             
             </div>
+            
             </div>
     </nav>
     <video  id="video" playsinline="" autoplay="autoplay" loop="loop" muted="muted"  controls="controls" style="background:white;background-image:none !important;width:100%;margin-top: 81px;" >
@@ -99,29 +102,39 @@
     
     
 
-      <div id="AU"style="height: 100vh;" class="jumbotron jumbotron-fluid">
+      <div id="AU"  class="jumbotron jumbotron-fluid">
         <div class="container">
           <H2  >About Us</H2>
+          <br><p class="lead"><span id="heading-about-us"> We’re the only actively managed crypto index fund that helps you reach your goals faster by providing you with a suite of services that traditionally only a multimillionaire could afford.. </span> </p>
           <br>
-          <p class="lead"> <span id="heading-about-us"> We’re the only actively managed crypto index fund that helps you reach your goals faster by providing you with a suite of services that traditionally only a multimillionaire could afford.. </span> </p><br>
-          <hr style="width: 30%; margin: auto;"> <br>
-          <p class="lead">Since inception, our goal is to earn our investors exceptional, uncorrelated returns from exposure to digital assets while limiting downside risks. 
-            <br> 
-            By staying on top of all the news trends and remaining active in the market.
+          <hr style="width: 30%; margin: auto;"> 
+        <br><br>
+        <div class="about-flex-container">
+
+
+          <div style="margin: 20px auto 0px auto;">
+
+            <iframe class="iframeVideo" src="https://www.youtube.com/embed/BLJhGd8Gjh4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+          </div>
+          <div>
+        
+          
+          
+          <p class="lead">
+            We’re the only actively managed crypto index fund that helps you reach your financial goals faster by providing you with a suite of services that traditionally only a multimillionaire could afford.
             <br>
-            And reducing risk when necessary by rebalancing against USDT to protect against unexpected market crashes & bear cycles.
-            <br> 
-            Using state of the art algorithms based on Nobel prize winning research.
-            <br> 
-            Because investing on your own can be daunting  and hiring an advisor can cost a small fortune.
-            <br> 
-            We eliminate this complexity for the new crypto investor.
-            <br> 
-            So you can sit back, relax, and put your money to work hassle free.
-            <br> 
-            It’s like automated crypto investing with personal touch.
+            <br>
+            Since inception, our goal is to earn our investors exceptional, uncorrelated returns from exposure to digital assets while limiting downside risks. 
+            <br>
+            <br>
+            Our performance has been beating both BTC , S&P 500  & other benchmarks since March 2020.
+            <br>
             </p>
         </div>
+
+      </div>
+      </div>
       </div>
 
     
@@ -244,12 +257,23 @@
     </div>
 
 
-    <H2 id="Testimonial">Testimonial</H2>
-    <div class="test">
-      
+    <H2 id="Testimonial" >Testimonial</H2>
+    <div class="test" style="padding-top: 200px;">
+      <div class="owl-carousel owl-theme">
+
+        <div class="item-video" data-merge="2"><a class="owl-video" href="https://youtu.be/szLgu1knyeo"></a><p style="text-align: center; width: 100%;padding-top: 20px;" >Video 1 </p></div>
+        <div class="item-video" data-merge="2"><a class="owl-video" href="https://youtu.be/cEZ9CcuVzic"></a><p style="text-align: center; width: 100%;padding-top: 20px;" >Video 2 </p></div>
+        <div class="item-video" data-merge="2"><a class="owl-video" href="https://youtu.be/Z_Zu1QLv2j8"></a><p style="text-align: center; width: 100%;padding-top: 20px;" >Video 3 </p></div>
+        <div class="item-video" data-merge="2"><a class="owl-video" href="https://youtu.be/srDWo396piw"></a><p style="text-align: center; width: 100%;padding-top: 20px;" >Video 4 </p></div>
+        <div class="item-video" data-merge="2"><a class="owl-video" href="https://youtu.be/JYz-PbO2OqI"></a><p style="text-align: center; width: 100%;padding-top: 20px;" >Video 5 </p></div>
+
+    </div>
     </div>
     <H2 id="Calculation">Calculation</H2>
     <div class="test"></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.3/owl.carousel.min.js"></script>
     
     <script src="script.js"></script>
     
