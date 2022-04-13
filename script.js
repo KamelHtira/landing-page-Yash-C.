@@ -34,15 +34,14 @@
       }
       function runNumbers(){
       const obj1 = document.getElementById("first-number");
-      animateValue(obj1, 0, 28, 2500);
+      animateValue(obj1, 0, 10, 2500);
       const obj2 = document.getElementById("second-number");
       animateValue(obj2, 0, 35, 2500);
       const obj3 = document.getElementById("third-number");
       animateValue(obj3, 0, 24, 2500);
       const obj4 = document.getElementById("forth-number");
       animateValue(obj4, 0, 7, 2500);
-      const obj5 = document.getElementById("fifth-number");
-      animateValue(obj5, 0, 7, 2500);
+
       }
       let i=0;
 
@@ -58,7 +57,7 @@
       items:1,
       merge:true,
       loop:true,
-      margin:10,
+      margin:100,
       video:true,
       lazyLoad:true,
       center:true,

@@ -280,7 +280,7 @@ body{
 }
 @media  (max-width:760px){
     .iframeVideo{
-        width:60vh ;
+        width:100% ;
         height:auto;
     }
 
@@ -481,7 +481,7 @@ body{
   /* -----------------------------------    video slider   -----------------------------------*/
 
   .owl-carousel{
-      height: 500px;
+
   }
   .owl-dots{
 	text-align: center;
@@ -499,7 +499,7 @@ body{
 	background: #fff;
 	border-radius: 50%;
 	display: block;
-	margin: 5px 3px;
+	margin: 5px 10px;
 }
 
 .owl-dot.active span{
