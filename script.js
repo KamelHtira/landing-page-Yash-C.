@@ -36,7 +36,7 @@
       const obj1 = document.getElementById("first-number");
       animateValue(obj1, 0, 10, 2500);
       const obj2 = document.getElementById("second-number");
-      animateValue(obj2, 0, 35, 2500);
+      animateValue(obj2, 0, 500, 2500);
       const obj3 = document.getElementById("third-number");
       animateValue(obj3, 0, 24, 2500);
       const obj4 = document.getElementById("forth-number");
