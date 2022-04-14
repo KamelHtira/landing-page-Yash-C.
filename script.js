@@ -73,27 +73,48 @@
   })
 
 
-  videos = document.querySelectorAll("video");
-  for (var i = 0, l = videos.length; i < l; i++) {
-      var video = videos[i];
-      var src = video.src || (function () {
-          var sources = video.querySelectorAll("source");
-          for (var j = 0, sl = sources.length; j < sl; j++) {
-              var source = sources[j];
-              var type = source.type;
-              var isMp4 = type.indexOf("mp4") != -1;
-              if (isMp4) return source.src;
-          }
-          return null;
-      })();
-      if (src) {
-          var isYoutube = src && src.match(/(?:youtu|youtube)(?:\.com|\.be)\/([\w\W]+)/i);
-          if (isYoutube) {
-              var id = isYoutube[1].match(/watch\?v=|[\w\W]+/gi);
-              id = (id.length > 1) ? id.splice(1) : id;
-              id = id.toString();
-              var mp4url = "http://www.youtubeinmp4.com/redirect.php?video=";
-              video.src = mp4url + id;
-          }
-      }
-  }
+  function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less";
+      moreText.style.display = "inline";
+    }
+  } 
+  function myFunction1() {
+    var dots = document.getElementById("dots1");
+    var moreText = document.getElementById("more1");
+    var btnText = document.getElementById("myBtn1");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less";
+      moreText.style.display = "inline";
+    }
+  } 
+  function myFunction2() {
+    var dots = document.getElementById("dots2");
+    var moreText = document.getElementById("more2");
+    var btnText = document.getElementById("myBtn2");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less";
+      moreText.style.display = "inline";
+    }
+  } 
