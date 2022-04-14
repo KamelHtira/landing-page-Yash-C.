@@ -56,11 +56,11 @@
     z-index: 5;
     width: 100%;
     padding: 18px 5;
-    background-color:#010001;
+    background-color:white;
 }
 .navbar1 ul a{
     margin-left: 30px;
-color: white;
+color: #010001;
 text-decoration: none;
 font-size: 17px;
 font-weight: 400;
@@ -76,7 +76,7 @@ position: relative;
     font-size: 35px;
     font-weight: 600;
     text-decoration: none;
-    color: white;
+    color: black;
 
 }
 .navbar1 .menu-list.active{
@@ -532,7 +532,7 @@ body{
 
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
   }
   
