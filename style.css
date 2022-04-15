@@ -1007,12 +1007,12 @@ address a:hover {
         text-align: center;
     }
     .ct-footer-list > li ul{
-        padding-left: 100px;
+        padding-left:20vw;
         text-align: left;
     }
     .ct-footer-list h2{
         margin-top: 20px;
-        padding-left: 100px;
+        padding-left:20vw;
         text-align: left;
     }
   .ct-footer-pre .form-group input {
