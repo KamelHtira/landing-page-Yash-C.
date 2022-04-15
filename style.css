@@ -111,6 +111,7 @@ position: relative;
   background: #1b1b1b;
   padding: 20px 0;
 
+
 }
 .cancel-btn.show{
     display: block;
@@ -627,13 +628,10 @@ body{
   }
   
   @media (min-width: 320px) and (max-width: 414px) {
-    .Benefits .cards {
-      display: flex;
-      flex-direction: column;
-    }
     .Benefits .card {
-      margin-bottom: 1rem;
+    width: 90%;
     }
+
 
   }
 
@@ -686,6 +684,7 @@ body{
   }
  /* -----------------------------------    Benefits   -----------------------------------*/
 
+  /* -----------------------------------    footer   -----------------------------------*/
 
 
  .ct-footer-post a:hover ,.ct-footer-meta a:hover{
@@ -833,76 +832,8 @@ address a {
 address a:hover {
   text-decoration: underline;
 }
-.btn {
-  font-family: 'Open Sans Condensed', sans-serif;
-  border-radius: 0;
-  border: none;
-  text-transform: uppercase;
-  color: #111;
-  font-size: 26px;
-  padding: 12px 30px;
-}
-.btn.btn-motive {
-  background-color: #00bff3;
-  -webkit-transition: all .25s ease;
-  transition: all .25s ease;
-}
-.btn.btn-motive:hover,
-.btn.btn-motive:hover:active {
-  background-color: #00bff3;
-}
-.btn.btn-violet {
-  color: #fff;
-  background-color: #4f4f99;
-  -webkit-transition: all .25s ease;
-  transition: all .25s ease;
-}
-.btn.btn-violet:hover {
-  background-color: #37376b;
-}
-.btn.btn-violet:hover:active {
-  background-color: #2f2f5b
-}
-.btn.btn-green {
-  color: #fff;
-  background-color: #43670f;
-  -webkit-transition: all .25s ease;
-  transition: all .25s ease;
-}
-.btn.btn-green:hover {
-  background-color: #36520c;
-}
-.btn.btn-green:hover:active {
-  background-color: #314a0b;
-}
-.btn.btn-red {
-  color: #fff;
-  background-color: #da2229;
-  -webkit-transition: all .25s ease;
-  transition: all .25s ease;
-}
-.btn.btn-red:hover {
-  background-color: #ae1b21;
-}
-.btn.btn-red:hover:active {
-  background-color: #9d181e
-}
-.btn.btn-white {
-  background-color: #fff;
-  -webkit-transition: all .25s ease;
-  transition: all .25s ease;
-}
-.btn.btn-white:hover {
-  background-color: #d9d9d9;
-}
-.btn.btn-white:hover:active {
-  background-color: #c9c9c9
-}
-.btn.btn-large {
-  padding: 20px 50px;
-  font-size: 30px;
-  white-space: normal;
-}
+
+
 .ct-mediaSection {
   background-attachment: fixed;
 }
@@ -1076,10 +1007,13 @@ address a:hover {
         text-align: center;
     }
     .ct-footer-list > li ul{
-        text-align: center;
+        padding-left: 100px;
+        text-align: left;
     }
     .ct-footer-list h2{
-        text-align: center;
+        margin-top: 20px;
+        padding-left: 100px;
+        text-align: left;
     }
   .ct-footer-pre .form-group input {
     float: left;
@@ -1138,3 +1072,5 @@ address a:hover {
 .ct-socials i:hover {
     color: #06d087;
 }
+
+  /* -----------------------------------    footer   -----------------------------------*/
