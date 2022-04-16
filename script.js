@@ -15,9 +15,7 @@
           menuBtn.classList.remove("hide");
           cancelBtn.classList.remove("show")
 }
-      window.onscroll = ()=>{
-          this.scrollY >20 ? navbar.classList.add("sticky1") : navbar.classList.remove("sticky1");
-      }
+
 
     
       function animateValue(obj, start, end, duration) {
@@ -51,7 +49,9 @@
             runNumbers();k++;
             
         }
-    }
+
+        this.scrollY >20 ? navbar.classList.add("sticky1") : navbar.classList.remove("sticky1");
+      }
 
     $('.owl-carousel').owlCarousel({
       items:1,
