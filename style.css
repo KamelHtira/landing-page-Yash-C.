@@ -16,6 +16,7 @@
     html {
         scroll-behavior: smooth;
       }
+    
 /* -----------------------------------    navbar1   -----------------------------------*/
 #dropdown-menuK{
     min-width: 0px;
@@ -47,7 +48,7 @@
 .menu-btn i{
             position: absolute;
             right: 10px;
-            top: 43px;
+            top: 38px;
             float: right;
             font-size: 1.5em;
 }
@@ -109,8 +110,8 @@ position: relative;
 }
 .navbar1.sticky1{
 
-  padding: 20px 0;
-  box-shadow: 0px -10px 50px 1px black;
+  padding: 13px 0;
+  box-shadow: 0px -19px 50px 1px black;
 
 
 }
@@ -211,15 +212,8 @@ position: relative;
 h2{
     text-align: center;
 }
-.test{
-    background-color: bisque;
-    height: 850px;
-    width: 100%;
 
-}
-body{
-    background: #06d087;
-}
+
 
 /* -----------------------------------    form   -----------------------------------*/
 #formTitle{
@@ -306,7 +300,9 @@ body{
     }
 }
 
-
+/* #AU{
+  background-color: transparent;
+} */
 
 /* -----------------------------------    about us   -----------------------------------*/
 
@@ -396,7 +392,7 @@ body{
 }
 @media  (max-width:780px){
 .Differentiation table {
-    font-size: 15px;
+    font-size: 14px;
     border-radius: 0px;
 }
 #first-table{
@@ -429,7 +425,7 @@ body{
     .Differentiation table{
         
 
-        font-size: 10px;
+
         
 
     }
@@ -448,7 +444,24 @@ body{
   /* -----------------------------------    Differentiation   -----------------------------------*/
 
   /* -----------------------------------    Numbers   -----------------------------------*/
+  .parallax {
+  
+    /* The image used */
+    background-image: url("https://aix-investments.com/images/number_bg.jpg");
+  
+    /* Set a specific height */
+    min-height: 320px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallaxFilter{
+    background-color: rgba(0, 255, 0, 0.2); height:320px;}
     .numberDiv {
+      color: white;
         font-family: 'Nanum Gothic', sans-serif;
         font-family: 'Tangerine', cursive;
         font-size: 10em;
@@ -481,6 +494,14 @@ body{
         }
      }
      @media  (max-width:650px){
+       .parallaxFilter{
+      background-color: rgba(0, 255, 0, 0.2); height:680px;}
+      .parallax {
+  
+
+        min-height:680px;
+
+      }
         #number-container{
             display: block;
     
@@ -776,8 +797,7 @@ a {
   padding-left: 0;
   display: table;
   width: 100%;
-  border-bottom: 1px solid #555;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
 }
 .ct-footer-list h2{
     text-align: left;}
@@ -944,6 +964,9 @@ address a:hover {
   font-weight: 700;
   line-height: 1;
 }
+#socialH2{
+  text-align: center;
+}
 
 /* Media Queries */
 
@@ -1032,6 +1055,9 @@ address a:hover {
         margin-top: 20px;
         padding-left:20vw;
         text-align: left;
+    }
+    #socialH2{
+      text-align: left;
     }
   .ct-footer-pre .form-group input {
     float: left;
