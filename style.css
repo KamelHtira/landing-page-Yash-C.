@@ -242,7 +242,22 @@ h2{
     width: 85%;
     transform: translate(-50%, -50%);
     padding: 30px;
-}
+
+  }
+  #form-btn2{
+    margin: auto;
+      display: block;height: 38px;background-color: #06d087;border: 1px #06d087;
+  
+      width: 110px;
+  }
+  #form-btn2:hover{
+      background-color: #059762;
+  }
+  @media  (max-width:767px){
+    #form-btn2{
+  
+        width: 150px;
+    }}
 #form-btn{
   margin: auto;
     display: block;height: 38px;background-color: #06d087;border: 1px #06d087;
@@ -266,6 +281,17 @@ h2{
         margin-top: 50px;
     }
 }
+
+
+
+.formClass2{
+  margin: auto;
+  text-align: center;
+  
+}
+
+
+
 
 /* -----------------------------------    form   -----------------------------------*/
 
@@ -500,7 +526,7 @@ display: none;
     background-size: cover;
   }
   .parallaxFilter{
-    background-color: rgba(0, 255, 0, 0.2); height:320px;}
+    background-color: rgba(10, 31, 6, 0.5); height:320px;}
     .numberDiv {
       color: white;
         font-family: 'Nanum Gothic', sans-serif;
@@ -804,7 +830,7 @@ a {
 .ct-footer {
   background-color: #111;
   padding-top: 70px;
-  margin-top: 20px;
+
   position: relative;
 }
 .ct-footer-pre {
@@ -858,7 +884,7 @@ a {
     text-align: left;}
 
 .ct-footer-list > li .ct-footer-list-header {
-  font-family: 'Open Sans Condensed', sans-serif;
+  margin-top: 30px;
   color: #06d087;
   font-size: 30px;
 }
@@ -1020,7 +1046,7 @@ address a:hover {
   line-height: 1;
 }
 #socialH2{
-  text-align: center;
+  text-align: left;
 }
 
 /* Media Queries */
