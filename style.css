@@ -1207,6 +1207,7 @@ address a:hover {
     font-size:35px ;
     text-align: center;
     font-weight: bold;
+    line-height: 1.5;
   }
 
   @media (max-width:800px) {
