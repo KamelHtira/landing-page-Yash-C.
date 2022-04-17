@@ -357,7 +357,7 @@ h2{
     display: flex;    justify-content: center;
 }
 
-.Differentiation table td{border-bottom: 1px solid gray;border-top: 1px solid gray;}
+.Differentiation table td{border-top: 1px solid gray;}
 .Differentiation table {
 
     border-radius: 10px;
@@ -1203,7 +1203,7 @@ address a:hover {
   /* -----------------------------------    footer   -----------------------------------*/
 
   .TitleCrypto{
-    margin: 50px 100px 50px 100px ;
+    margin: 80px 100px 50px 100px ;
     font-size:35px ;
     text-align: center;
     font-weight: bold;
