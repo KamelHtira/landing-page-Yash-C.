@@ -356,6 +356,8 @@ h2{
     padding: 0px 0px 200px 0px;
     display: flex;    justify-content: center;
 }
+
+.Differentiation table td{border-bottom: 1px solid gray;border-top: 1px solid gray;}
 .Differentiation table {
 
     border-radius: 10px;
@@ -562,7 +564,7 @@ display: none;
      }
      @media  (max-width:650px){
        .parallaxFilter{
-      background-color: rgba(0, 255, 0, 0.2); height:680px;}
+      height:680px;}
       .parallax {
   
 
@@ -1224,7 +1226,7 @@ address a:hover {
 	bottom:20px;
 	right:20px;
   
-	background-color:rgba(1, 121, 1, 0.8);
+	background-color:rgba(16, 138, 52, 0.897);
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;

@@ -118,3 +118,24 @@
       moreText.style.display = "inline";
     }
   } 
+
+
+  const scriptURL1 = 'https://script.google.com/macros/s/AKfycby9D6QNMmazh2Q1WmDJtsc9vwbDPVCIU_P88F5ZcfvTE4Ac2GB35bSe391W7ULhvkGh/exec'
+  const form1 = document.forms['google-sheet']
+
+  form1.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL1, { method: 'POST', body: new FormData(form1)})
+      .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+      .catch(error => console.error('Error!', error.message))
+  })
+
+  const scriptURL2 = 'https://script.google.com/macros/s/AKfycby9D6QNMmazh2Q1WmDJtsc9vwbDPVCIU_P88F5ZcfvTE4Ac2GB35bSe391W7ULhvkGh/exec'
+  const form2 = document.forms['google-sheet2']
+
+  form2.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL2, { method: 'POST', body: new FormData(form2)})
+      .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+      .catch(error => console.error('Error!', error.message))
+  })
