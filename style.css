@@ -18,12 +18,9 @@
       }
     
 /* -----------------------------------    navbar1   -----------------------------------*/
-#dropdown-menuK{
-    min-width: 0px;
-}
-#dropdown-itemK{
-    width: 60px;
-}
+
+
+
 #phoneIBtn{
     padding-bottom: 8px;
     padding-top: 8px;
@@ -216,6 +213,19 @@ h2{
 
 
 /* -----------------------------------    form   -----------------------------------*/
+.investEarly{
+  font-size: 2rem;
+}
+@media  (max-width:954px){
+  .investEarly{
+    font-size: 1.6rem;
+  }
+}
+@media  (max-width:500px){
+  .investEarly{
+    font-size: 1.4rem;
+  }
+}
 #formTitle{
     font-size: 1.2rem;
     display: block;
@@ -234,14 +244,21 @@ h2{
     padding: 30px;
 }
 #form-btn{
+  margin: auto;
     display: block;height: 38px;background-color: #06d087;border: 1px #06d087;
+
+    width: 110px;
 }
 #form-btn:hover{
     background-color: #059762;
 }
 @media  (max-width:767px){
+  #form-btn{
+
+      width: 150px;
+  }
     .formClass{
-        
+        padding-top: 0px;
         margin: auto;
         position: static;
         width: 90%;
@@ -340,19 +357,19 @@ h2{
     padding: 20px;
   }
   .Differentiation #first-table tr:nth-child(even) {
-    background-color: #010001;
-    color: white;
+    background-color: rgb(240, 240, 240);
+
   }
   .Differentiation  tr:nth-child(even) {
     background-color: rgb(240, 240, 240);
 
   }
 
-  .Differentiation .fa-thumbs-up{
+  .fa-thumbs-up{
       color: #05b876;
       font-size: 2rem;
   }
-  .Differentiation .fa-thumbs-down{
+ .fa-thumbs-down{
     color: #010001;
     font-size: 2rem;
 }
@@ -369,6 +386,20 @@ h2{
 #first-table{
     width: 50%;
  text-align: center;
+}
+#first-table2{
+
+  margin: auto;
+  text-align: left;
+  margin-bottom: 60px;
+  
+}
+#first-table2 th{
+  text-align: center;
+}
+#first-table2 td{
+border-top: 1px solid;
+border-bottom: 1px solid;
 }
   @media  (max-width:1500px){
     #first-table td{ 
@@ -390,8 +421,18 @@ h2{
 
     }
 }
+@media  (min-width:780px){
+  #first-table2{
+
+display: none;
+    
+  }
+}
 @media  (max-width:780px){
-.Differentiation table {
+
+  .Differentiation{display: none;}
+  .Differentiation table {
+  display: none;
     font-size: 14px;
     border-radius: 0px;
 }
@@ -559,6 +600,16 @@ h2{
   padding-bottom: 100px;
 
 }
+@media  (max-width:650px){
+  .Benefits{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  
+  }
+}
+
+
+
 
   
 
@@ -584,6 +635,10 @@ h2{
     border-radius: 0.8rem;
 
 
+  }
+  @media  (max-width:650px){
+    .Benefits .cards {
+      margin-top: 30px;}
   }
   
 
