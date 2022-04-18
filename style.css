@@ -1258,4 +1258,18 @@ address a:hover {
 	margin-top:15px;
 }
 
-
+#DivOfHeadingVideo{
+  height: 100vh;
+}
+#HeadingVideo{
+  top:-100px;position: absolute;
+}
+@media(max-width:1700px){
+  #DivOfHeadingVideo{
+    height: auto;
+  }
+  #HeadingVideo{
+    margin-top: 81px;
+    position: static;
+  }
+}

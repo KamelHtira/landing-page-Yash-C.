@@ -120,7 +120,7 @@
   } 
 
 
-  const scriptURL1 = 'https://script.google.com/macros/s/AKfycbyge6Lnl7leaWoIYMFMNKXMvItKhe8drf7lDMr2wxgFKdAPavd5dCXQkE1CZjXSNgZw/exec'
+  const scriptURL1 = 'https://script.google.com/macros/s/AKfycbyu_QAXEm5HO9goeNXDYZMOjJvhp0gFK1mMVEP_CzDqWzx9bQkFNbI-qcgyzTG-2Rap/exec'
   const form1 = document.forms['google-sheet']
 
   form1.addEventListener('submit', e => {
@@ -130,7 +130,7 @@
       .catch(error => console.error('Error!', error.message))
   })
 
-  const scriptURL2 = 'https://script.google.com/macros/s/AKfycbyge6Lnl7leaWoIYMFMNKXMvItKhe8drf7lDMr2wxgFKdAPavd5dCXQkE1CZjXSNgZw/exec'
+  const scriptURL2 = 'https://script.google.com/macros/s/AKfycbyu_QAXEm5HO9goeNXDYZMOjJvhp0gFK1mMVEP_CzDqWzx9bQkFNbI-qcgyzTG-2Rap/exec'
   const form2 = document.forms['google-sheet2']
 
   form2.addEventListener('submit', e => {
@@ -140,12 +140,12 @@
       .catch(error => console.error('Error!', error.message))
   })
 
-  const scriptURL3 = 'https://script.google.com/macros/s/AKfycbyge6Lnl7leaWoIYMFMNKXMvItKhe8drf7lDMr2wxgFKdAPavd5dCXQkE1CZjXSNgZw/exec'
+  const scriptURL3 = 'https://script.google.com/macros/s/AKfycbyu_QAXEm5HO9goeNXDYZMOjJvhp0gFK1mMVEP_CzDqWzx9bQkFNbI-qcgyzTG-2Rap/exec'
   const form3 = document.forms['google-sheet3']
 
-  form2.addEventListener('submit', e => {
+  form3.addEventListener('submit', e => {
     e.preventDefault()
-    fetch(scriptURL2, { method: 'POST', body: new FormData(form2)})
+    fetch(scriptURL3, { method: 'POST', body: new FormData(form3)})
       .then(response =>window.location.replace("Thank_You.html"))
       .catch(error => console.error('Error!', error.message))
   })
@@ -159,6 +159,6 @@
   $(window).on('load', function(){ 
     setTimeout(() => {
       $('#exampleModalCenter3').modal('show'); 
-    }, 20000);
+    }, 1000);
     
 });
