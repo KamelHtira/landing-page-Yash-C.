@@ -8,7 +8,8 @@
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.3/assets/owl.carousel.min.css">
 
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -70,20 +71,20 @@
         <div class="form-row">
           <div class="col-md-2 mb-3">
             <label for="validationDefault01">Name</label>
-            <input name="Name" type="text" class="form-control" placeholder=" Your Name" id="validationDefault01"  required>
+            <input name="Name1" type="text" class="form-control" placeholder=" Your Name" id="validationDefault01"  required>
           </div>
           <div class="col-md-3 mb-3">
             <label for="validationDefault02">Email</label>
-            <input name="Email" type="email" class="form-control" placeholder="Your Email" id="validationDefault02"  required>
+            <input name="Email1" type="email" class="form-control" placeholder="Your Email" id="validationDefault02"  required>
           </div>
           
           <div class="col-md-2 mb-3">
             <label for="validationDefault02">Phone Number</label>
-            <input name="Number" type="text" class="form-control" placeholder="Your Number" id="validationDefault02"  required>
+            <input name="Number1" type="text" class="form-control" placeholder="Your Number" id="validationDefault02"  required>
           </div>
             <div class="col-md-3 mb-3">
             <label for="validationDefault04">Amount </label>
-            <select name="Amount" class="custom-select" id="validationDefault04" required>
+            <select name="Amount1" class="custom-select" id="validationDefault04" required>
               <option selected disabled value="">I’m Looking To Invest </option>
               <option>1k - 5k USD</option>
               <option>5k - 10k USD</option>
@@ -106,7 +107,7 @@
       <H2 class="TitleCrypto" >Imagine Unlocking Limitless Possibilities 
       </H2>
         <div class="cards">
-          <div class="card shadow">
+          <div class="card shadow"  data-aos="flip-left">
             <ul>
               <img class="BeneftisImgs" src="./src/Images/Enjoy The Freedom.svg" alt="">
               
@@ -117,7 +118,7 @@
             </ul>
           </div>
   
-          <div class="card shadow">
+          <div class="card shadow" data-aos="flip-left">
             <ul>
               <img class="BeneftisImgs"src="./src/Images/No More Complexity.svg"  alt="">
               
@@ -128,7 +129,7 @@
             </ul>
           </div>
   
-          <div class="card shadow">
+          <div class="card shadow" data-aos="flip-left">
             <ul>
               <img class="BeneftisImgs" src="./src/Images/Never Miss The Next Big Trend.svg" alt="">
               
@@ -190,7 +191,8 @@
     
 <div id="Diff" style="margin-top: 70px;">
 <H2 id="AU" class="TitleCrypto" >Why Thousands Of Smart Investors Have Chosen Us Than The Others?</H2><br><br>
-      <div class="Differentiation">
+      <div class="Differentiation" data-aos="fade-up"
+      data-aos-duration="2000"> 
         
       <table id="first-table"  >
         <tr>
@@ -508,21 +510,21 @@
   <div style="justify-content: center; gap:0px 30px;text-align: left;" class="form-row">
     <div style="max-width: 400px;" class="col-md-5 mb-3">
       <label for="validationDefault01">Name</label>
-      <input name="name1" type="text" class="form-control" placeholder=" Your Name" id="validationDefault01"  required>
+      <input name="Name2" type="text" class="form-control" placeholder=" Your Name" id="validationDefault01"  required>
     </div>
     <div style="max-width: 400px;" class="col-md-5 mb-3">
       <label for="validationDefault02">Email</label>
-      <input name="name2" type="email" class="form-control" placeholder="Your Email" id="validationDefault02"  required>
+      <input name="Email2" type="email" class="form-control" placeholder="Your Email" id="validationDefault02"  required>
     </div>
   </div>
     <div  style="justify-content: center; gap:0px 30px;text-align: left;" class="form-row">
     <div style="max-width: 400px;" class="col-md-5 mb-3">
       <label for="validationDefault02">Phone Number</label>
-      <input name="name3" type="text" class="form-control" placeholder="Your Number" id="validationDefault02"  required>
+      <input name="Number2" type="text" class="form-control" placeholder="Your Number" id="validationDefault02"  required>
     </div>
       <div style="max-width: 400px;" class="col-md-5 mb-3">
       <label for="validationDefault04">Amount </label>
-      <select name="name4" class="custom-select" id="validationDefault04" required>
+      <select name="Amount2" class="custom-select" id="validationDefault04" required>
         <option selected disabled value="">I’m Looking To Invest </option>
         <option>1k - 5k USD</option>
         <option>5k - 10k USD</option>
@@ -611,21 +613,21 @@
   <div style="justify-content: center; gap:0px 30px;text-align: left;" class="form-row">
     <div style="max-width: 400px;" class="col-md-5 mb-3">
       <label for="validationDefault01">Name</label>
-      <input name="name1" type="text" class="form-control" placeholder=" Your Name" id="validationDefault01"  required>
+      <input name="Name3" type="text" class="form-control" placeholder=" Your Name" id="validationDefault01"  required>
     </div>
     <div style="max-width: 400px;" class="col-md-5 mb-3">
       <label for="validationDefault02">Email</label>
-      <input name="name2" type="email" class="form-control" placeholder="Your Email" id="validationDefault02"  required>
+      <input name="Email3" type="email" class="form-control" placeholder="Your Email" id="validationDefault02"  required>
     </div>
   </div>
     <div  style="justify-content: center; gap:0px 30px;text-align: left;" class="form-row">
     <div style="max-width: 400px;" class="col-md-5 mb-3">
       <label for="validationDefault02">Phone Number</label>
-      <input name="name3" type="text" class="form-control" placeholder="Your Number" id="validationDefault02"  required>
+      <input name="Number3" type="text" class="form-control" placeholder="Your Number" id="validationDefault02"  required>
     </div>
       <div style="max-width: 400px;" class="col-md-5 mb-3">
       <label for="validationDefault04">Amount </label>
-      <select name="name4" class="custom-select" id="validationDefault04" required>
+      <select name="Amount3" class="custom-select" id="validationDefault04" required>
         <option selected disabled value="">I’m Looking To Invest </option>
         <option>1k - 5k USD</option>
         <option>5k - 10k USD</option>
@@ -638,7 +640,7 @@
   <div style="justify-content: center; gap:0px 30px;" class="form-row">
     <div style="max-width: 400px;" class="col-md-5 mb-3">
       <div style="text-align: left;"class="form-check">
-        <input class="form-check-input" style="accent-color: rgb(1, 102, 45);"type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+        <input class="form-check-input" style="accent-color: rgb(1, 102, 45);"type="radio" name="Radios3" id="exampleRadios1" value="CallmeNow" checked>
         <label class="form-check-label" for="exampleRadios1">
           Call me now
         </label>
@@ -647,7 +649,7 @@
     </div>
     <div style="max-width: 400px;" class="col-md-5 mb-3">
       <div style="text-align: left;" class="form-check">
-        <input class="form-check-input" style="accent-color: rgb(1, 102, 45);" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+        <input class="form-check-input" style="accent-color: rgb(1, 102, 45);" type="radio" name="Radios3" id="exampleRadios2" value="8AM_TO_8PM">
         <label class="form-check-label" for="exampleRadios2">
           Anytime Between 8AM TO 8PM
 
@@ -767,7 +769,9 @@
         attribute: 'data-yt'
       });
     </script>  
-
+<script>
+  AOS.init();
+</script>
 
 
 
