@@ -124,6 +124,10 @@
   const form1 = document.forms['google-sheet']
 
   form1.addEventListener('submit', e => {
+    let B1 = document.getElementById('form-btn')
+    B1.style.width="150px"
+    B1.innerHTML="Please wait..."
+    B1.disabled = true;
     e.preventDefault()
     fetch(scriptURL1, { method: 'POST', body: new FormData(form1)})
       .then(response => window.location.replace("Thank_You.html"))
@@ -134,6 +138,10 @@
   const form2 = document.forms['google-sheet2']
 
   form2.addEventListener('submit', e => {
+    let B2 = document.getElementById('form-btn4')
+    B2.style.width="150px"
+    B2.innerHTML="Please wait..."
+    B2.disabled = true;
     e.preventDefault()
     fetch(scriptURL2, { method: 'POST', body: new FormData(form2)})
       .then(response =>window.location.replace("Thank_You.html"))
@@ -144,6 +152,10 @@
   const form3 = document.forms['google-sheet3']
 
   form3.addEventListener('submit', e => {
+        let B3 = document.getElementById('form-btn3')
+    B3.style.width="150px"
+    B3.innerHTML="Please wait..."
+    B3.disabled = true;
     e.preventDefault()
     fetch(scriptURL3, { method: 'POST', body: new FormData(form3)})
       .then(response =>window.location.replace("Thank_You.html"))
@@ -162,3 +174,4 @@
     }, 1000);
     
 });
+
