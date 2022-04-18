@@ -258,6 +258,21 @@ h2{
   
         width: 150px;
     }}
+
+    #form-btn3{
+      margin: auto;
+        display: block;height: 38px;background-color: #06d087;border: 1px #06d087;
+    
+        width: 110px;
+    }
+    #form-btn3:hover{
+        background-color: #059762;
+    }
+    @media  (max-width:767px){
+      #form-btn3{
+    
+          width: 150px;
+      }}
 #form-btn{
   margin: auto;
     display: block;height: 38px;background-color: #06d087;border: 1px #06d087;

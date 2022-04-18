@@ -126,7 +126,7 @@
   form1.addEventListener('submit', e => {
     e.preventDefault()
     fetch(scriptURL1, { method: 'POST', body: new FormData(form1)})
-      .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+      .then(response => alert("API found. Form1 works fine, data has been sent."))
       .catch(error => console.error('Error!', error.message))
   })
 
@@ -136,6 +136,13 @@
   form2.addEventListener('submit', e => {
     e.preventDefault()
     fetch(scriptURL2, { method: 'POST', body: new FormData(form2)})
-      .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+      .then(response => alert("API found. Form2 works fine, data has been sent."))
       .catch(error => console.error('Error!', error.message))
   })
+
+  $(window).on('load', function(){ 
+    setTimeout(() => {
+      $('#exampleModalCenter3').modal('show'); 
+    }, 20000);
+    
+});
