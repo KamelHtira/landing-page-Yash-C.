@@ -171,7 +171,7 @@
   $(window).on('load', function(){ 
     setTimeout(() => {
       $('#exampleModalCenter3').modal('show'); 
-    }, 1000);
+    }, 20000);
     
 });
 
