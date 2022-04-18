@@ -120,7 +120,7 @@
   } 
 
 
-  const scriptURL1 = 'https://script.google.com/macros/s/AKfycby9D6QNMmazh2Q1WmDJtsc9vwbDPVCIU_P88F5ZcfvTE4Ac2GB35bSe391W7ULhvkGh/exec'
+  const scriptURL1 = 'https://script.google.com/macros/s/AKfycbyge6Lnl7leaWoIYMFMNKXMvItKhe8drf7lDMr2wxgFKdAPavd5dCXQkE1CZjXSNgZw/exec'
   const form1 = document.forms['google-sheet']
 
   form1.addEventListener('submit', e => {
@@ -130,8 +130,18 @@
       .catch(error => console.error('Error!', error.message))
   })
 
-  const scriptURL2 = 'https://script.google.com/macros/s/AKfycby9D6QNMmazh2Q1WmDJtsc9vwbDPVCIU_P88F5ZcfvTE4Ac2GB35bSe391W7ULhvkGh/exec'
+  const scriptURL2 = 'https://script.google.com/macros/s/AKfycbyge6Lnl7leaWoIYMFMNKXMvItKhe8drf7lDMr2wxgFKdAPavd5dCXQkE1CZjXSNgZw/exec'
   const form2 = document.forms['google-sheet2']
+
+  form2.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL2, { method: 'POST', body: new FormData(form2)})
+      .then(response =>window.location.replace("Thank_You.html"))
+      .catch(error => console.error('Error!', error.message))
+  })
+
+  const scriptURL3 = 'https://script.google.com/macros/s/AKfycbyge6Lnl7leaWoIYMFMNKXMvItKhe8drf7lDMr2wxgFKdAPavd5dCXQkE1CZjXSNgZw/exec'
+  const form3 = document.forms['google-sheet3']
 
   form2.addEventListener('submit', e => {
     e.preventDefault()
